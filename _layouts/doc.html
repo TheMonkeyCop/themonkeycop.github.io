@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+    {%- include alert.html -%}
+
+    {%- include jumbotron.html -%}
+    
+    <div class="py-5 text-center">
+          {{ content }}
+    </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

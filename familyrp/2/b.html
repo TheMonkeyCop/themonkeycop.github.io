@@ -1,0 +1,31 @@
+---
+layout: doc
+---
+
+<div class="">
+    <h1>GTA installation folder was not found / missing</h1>
+    <p>Sometimes the launcher manages to find your GTAV folder without an issue but if you come across
+        the error of “GTA installation folder was not found / is missing” you can manually point it to
+        where your GTAV folder is located. To do that do the following; <br><br>
+
+        Go on the launcher - at the top click folders -&gt; open FiveM if you can not access this part of
+        the launcher due to the error it should be located in
+        “C:\Users\USERNAME\AppData\Roaming\FiveM-FRP” In the folder, double click and open "FiveM app"
+        or might be "FiveM application data" In the FiveM application data, find CitizenFX.ini -&gt; right
+        click, select edit In there, there's a link that says "IVPath=[game path]" <br>You have to tell
+        that where the GTA folder is located: Example IVPath=D:\SteamLibrary\steamapps\common\Grand
+        Theft Auto V <br> <br>
+
+        <b>If you open FiveM Application Data folder and you do NOT have a file named “CitizenFX.ini” do
+            the following; </b><br>
+        Go to the top of file explorer -&gt; Click view -&gt; and click "File name extensions" (Make sure this
+        is turned on) then In the “FiveM application data” folder, right click in a blank space -&gt; click
+        new -&gt; text document Name this "CitizenFX.ini" (Remove the .txt from the name) <br>
+        Then right click the file and edit then copy and paste the following two lines and complete the
+        IV path: <br>
+        [Game] <br>
+        IVPath= <br>
+        (Remember to fill the game path following from the example above and then save and exit)
+
+    </p>
+</div>
